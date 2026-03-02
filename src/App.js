@@ -62,3 +62,7 @@ function App() {
 }
 
 export default App;
+
+// git remote add origin https://github.com/Big-Joe01/tmg-site.git
+// git branch -M main
+// git push -u origin main
