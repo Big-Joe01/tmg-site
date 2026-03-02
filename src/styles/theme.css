@@ -1,0 +1,38 @@
+:root {
+  /* Light theme (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-light: #888888;
+  --accent-primary: #003366;
+  --accent-secondary: #ffd700;
+  --accent-hover: #1a4d80;
+  --border-color: #e0e0e0;
+  --card-bg: #ffffff;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --card-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15);
+  --header-bg: #003366;
+  --footer-bg: #003366;
+  --hero-overlay: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.9));
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #3d3d3d;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --text-light: #b0b0b0;
+  --accent-primary: #4d8cff;
+  --accent-secondary: #ffd700;
+  --accent-hover: #6ba0ff;
+  --border-color: #404040;
+  --card-bg: #2d2d2d;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --card-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.4);
+  --header-bg: #000000;
+  --footer-bg: #000000;
+  --hero-overlay: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+}
